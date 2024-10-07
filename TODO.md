@@ -7,6 +7,9 @@
 
 [ ] CSV file with test data
 
+[ ] PHP to get login information & redirect to login
+[ ] PHP adds Administration page link to nav if account type is staff
+
 ## Q&A
 - Ask questions, have them answered by other developers
   
