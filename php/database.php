@@ -17,8 +17,8 @@ class Database
     {
         self::$conn = sqlsrv_connect($servername, $connInfo);
 
-        if (self::$conn->connect_error) {
-            die("" . self::$conn->connect_error);
+        if (self::$conn) {
+            die("" . self::$conn);
         }
     }
 }
