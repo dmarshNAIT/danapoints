@@ -1,0 +1,18 @@
+body {
+  font-size: 100%;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  &#navbar {
+    /* NAVBAR */
+    gap: 20px;
+  }
+}
